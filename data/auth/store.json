@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": "449424526dae6a39f56b5277ec75a99b",
+      "fullName": "Kavya",
+      "email": "samakavya550@gmail.com",
+      "passwordHash": "$2b$12$BiZAQk2ajHB1eVVQ1B/H2.kohweNb.MoxEX/NtkBWNnwN0UKCNxd6",
+      "emailVerified": true,
+      "googleId": null,
+      "createdAt": 1787207776815,
+      "updatedAt": 1787207776815
+    },
+    {
+      "id": "9aa64f8d2ed8f67ed26d45b8145deca2",
+      "fullName": "Kavya reddy",
+      "email": "23eg106c29@anurag.edu.in",
+      "passwordHash": "$2b$12$afONw6pxaDbvUCHQkTbux.wWqWs62/x6WHM26qf4xyqHgYnq7rpP.",
+      "emailVerified": false,
+      "googleId": null,
+      "createdAt": 1787209678033,
+      "updatedAt": 1787209678033
+    },
+    {
+      "id": "fe5352b853bafdd20f139d1cfd8e5782",
+      "fullName": "Test User",
+      "email": "authfix.1173253603@example.com",
+      "passwordHash": "$2b$12$.TbTCqlHbhCUg9AF34.31O2UXfEZGSIVvcnh6eoVxnhBexdJ1JHnm",
+      "emailVerified": true,
+      "googleId": null,
+      "createdAt": 1787210220300,
+      "updatedAt": 1787210222842
+    },
+    {
+      "id": "7174898a7182ce5d5d9cc8f2a9737401",
+      "fullName": "Reset User",
+      "email": "reset.837596457@example.com",
+      "passwordHash": "$2b$12$DuV4Li7C34t8wcmKxCoei.rebzqH7qSsvqMRELW2ojuWU2t5UZqTS",
+      "emailVerified": true,
+      "googleId": null,
+      "createdAt": 1787210280653,
+      "updatedAt": 1787210282321
+    }
+  ],
+  "otps": [
+    {
+      "email": "samakavya550@gmail.com",
+      "otpHash": "a2784d4448af96c12963be0fbc6a52ed47f9f042cefdfa0064ed53547210618e",
+      "expiresAt": 1787208405421,
+      "usedAt": 1787208753409,
+      "attempts": 0,
+      "maxAttempts": 5,
+      "createdAt": 1787207805422
+    },
+    {
+      "email": "samakavya550@gmail.com",
+      "otpHash": "c34079d537d9c9f52aa417b7cadb02f3847d5cbba29040cffe55eae7a1a26db3",
+      "expiresAt": 1787209353408,
+      "usedAt": null,
+      "attempts": 0,
+      "maxAttempts": 5,
+      "createdAt": 1787208753409
+    }
+  ],
+  "sessions": [
+    {
+      "token": "2b47d92ae93423a2bf46fd152883cefc1021365d8388c377a213cc37ddbcad4e",
+      "email": "reset.837596457@example.com",
+      "expiresAt": 1787815082664,
+      "createdAt": 1787210282664
+    },
+    {
+      "token": "1821105b863771adc31b2568f647cdb08829269c1f99b2ec831bb09d965e035a",
+      "email": "samakavya550@gmail.com",
+      "expiresAt": 1787818193491,
+      "createdAt": 1787213393491
+    }
+  ],
+  "otpRequestEvents": [
+    {
+      "email": "samakavya550@gmail.com",
+      "at": 1787207805414
+    },
+    {
+      "email": "samakavya550@gmail.com",
+      "at": 1787208753403
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "at": 1787209678040,
+      "kind": "verify"
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "at": 1787209691496,
+      "kind": "verify"
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "at": 1787209691882,
+      "kind": "verify"
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "at": 1787209692808,
+      "kind": "verify"
+    },
+    {
+      "email": "authfix.1173253603@example.com",
+      "at": 1787210220304,
+      "kind": "verify"
+    },
+    {
+      "email": "authfix.1173253603@example.com",
+      "at": 1787210222122,
+      "kind": "verify"
+    },
+    {
+      "email": "reset.837596457@example.com",
+      "at": 1787210280656,
+      "kind": "verify"
+    },
+    {
+      "email": "reset.837596457@example.com",
+      "at": 1787210281370,
+      "kind": "reset"
+    }
+  ],
+  "emailVerificationTokens": [
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "tokenHash": "4d5406978076cec45a0d203f9af6e47f4dfdad22545ac14844394d39c2a66ea2",
+      "expiresAt": 1787296078037,
+      "usedAt": 1787209691493,
+      "createdAt": 1787209678037
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "tokenHash": "30c45969d7bfb19af416e7631df2e3f470c29d43cd627ff4e6cff7ee5afe3577",
+      "expiresAt": 1787296091493,
+      "usedAt": 1787209691879,
+      "createdAt": 1787209691493
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "tokenHash": "fad3575dcde812092eb1310f816acba402a7e6fc4880f8427555bf10c5de8ad0",
+      "expiresAt": 1787296091879,
+      "usedAt": 1787209692806,
+      "createdAt": 1787209691879
+    },
+    {
+      "email": "23eg106c29@anurag.edu.in",
+      "tokenHash": "9f1e313b41fe9f2bc5fc8e91898ac8eb0ad4c551aa02a9e17c26e43a83b43167",
+      "expiresAt": 1787296092806,
+      "usedAt": null,
+      "createdAt": 1787209692806
+    },
+    {
+      "email": "authfix.1173253603@example.com",
+      "tokenHash": "921de1b6427bac56f9bb316fe36d7abb4a1bbeca9d44876004489369b5e26e78",
+      "expiresAt": 1787296620303,
+      "usedAt": 1787210222120,
+      "createdAt": 1787210220303
+    },
+    {
+      "email": "authfix.1173253603@example.com",
+      "tokenHash": "c14a72ed905467174a288608df567c76172c77592cd00e04924f7b258c7b8806",
+      "expiresAt": 1787296622120,
+      "usedAt": 1787210222840,
+      "createdAt": 1787210222120
+    },
+    {
+      "email": "reset.837596457@example.com",
+      "tokenHash": "3b3273b9443b84bd97bb6fddebf5c4dd55481ac23d6e72a97721bbf22c575112",
+      "expiresAt": 1787296680655,
+      "usedAt": 1787210280706,
+      "createdAt": 1787210280655
+    }
+  ],
+  "passwordResetTokens": [
+    {
+      "email": "reset.837596457@example.com",
+      "tokenHash": "9d6c92c77878ec6d56e3172c70f1ebf9a69ee0c88bd627080c7e47eb6c42c1e9",
+      "expiresAt": 1787213881369,
+      "usedAt": 1787210282033,
+      "createdAt": 1787210281369
+    }
+  ]
+}
